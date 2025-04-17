@@ -132,11 +132,11 @@ def SubjectiveScores(votes_df, save_path = None):
 
     rows = [{'name': key,
              'subjective_score': str(ranks[key]['mean']),
-             'confidence_95_to_original': str(ranks[key]['confidence']['original'])} for key in ranks.keys()]
+             'confidence_95_to_original': str(ranks[key]['confidence']['Original'])} for key in ranks.keys()]
 
     subjective_results = pd.DataFrame(rows, columns=['name', 
                                                      'subjective_score',
-                                                     'confidence_95_to_original']).sort_values(by='subjective_score').reset_index(drop=True)
+                                                     'confidence_95_to_original']).sort_values(by='subjective_score', ascending=False).reset_index(drop=True)
 
     if save_path is not None:
       subjective_results.to_csv(save_path, index=False)
