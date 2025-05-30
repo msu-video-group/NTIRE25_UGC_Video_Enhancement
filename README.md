@@ -1,7 +1,7 @@
 # CVPR-NTIRE UGC Video Enhancement Challenge 2025
 
 [![Page](https://img.shields.io/badge/Challenge-Page-darkgreen)](https://codabench.org/competitions/4973/)
-[![Paper](https://img.shields.io/badge/Paper-Soon-red)](https://arxiv.org/)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2505.03007)
 [![Challenges](https://img.shields.io/badge/Challenges-NTIRE%202025-orange)](https://cvlai.net/ntire/2025/)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-VideoProcessing-purple)](https://videoprocessing.ai/benchmarks/)
 [![Subjective](https://img.shields.io/badge/Subjectify-Comparisons-blue)](https://subjectify.us/)
